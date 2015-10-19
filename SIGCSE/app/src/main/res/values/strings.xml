@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">SIGCSE Volunteer</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Thank you for using our app! To see your assigned tasks, use the "Your Tasks" button. To sign in as a
+    different user, press "Sign Out."</string>
     <string name="action_settings">Settings</string>
+    <string name="task">Your Tasks</string>
+    <string name="option">Options</string>
+    <string name="signOut">Sign Out</string>
 </resources>
