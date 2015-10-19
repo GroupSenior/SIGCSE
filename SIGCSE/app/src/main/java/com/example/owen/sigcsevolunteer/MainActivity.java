@@ -1,9 +1,11 @@
 package com.example.owen.sigcsevolunteer;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,5 +35,20 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void goTasks(View view){
+        Intent intent = new Intent(this, TaskActivity.class);
+        startActivity(intent);
+    }
+
+    public void goOptions(View view){
+        Intent intent = new Intent(this, OptionActivity.class);
+        startActivity(intent);
+    }
+
+    public void goSignIn(View view){
+        Intent intent = new Intent(this, SignInActivity.class);
+        startActivity(intent);
     }
 }

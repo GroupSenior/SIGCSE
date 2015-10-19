@@ -7,4 +7,5 @@
     <string name="task">Your Tasks</string>
     <string name="option">Options</string>
     <string name="signOut">Sign Out</string>
+    <string name="title_activity_sign_in">SignIn</string>
 </resources>
