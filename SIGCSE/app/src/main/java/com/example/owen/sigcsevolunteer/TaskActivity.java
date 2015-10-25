@@ -15,8 +15,8 @@ public class TaskActivity extends AppCompatActivity {
     }
     
     
-     public void goSignIn(View view){
-        Intent intent = new Intent(this, SignInActivity.class);
+     public void goMain(View view){
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }
