@@ -8,4 +8,5 @@
     <string name="option">Options</string>
     <string name="signOut">Sign Out</string>
     <string name="title_activity_sign_in">SignIn</string>
+    <string name="main_page">Home</string>
 </resources>
