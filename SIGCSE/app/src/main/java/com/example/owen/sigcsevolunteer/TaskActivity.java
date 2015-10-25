@@ -13,4 +13,10 @@ public class TaskActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_task);
     }
+    
+    
+     public void goSignIn(View view){
+        Intent intent = new Intent(this, SignInActivity.class);
+        startActivity(intent);
+    }
 }
