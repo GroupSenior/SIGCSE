@@ -5,7 +5,7 @@
 
 <Button
         android:textAllCaps="false"
-        android:id="@+id/main"
+        android:id="@+id/main_page"
         android:text="@string/task"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
