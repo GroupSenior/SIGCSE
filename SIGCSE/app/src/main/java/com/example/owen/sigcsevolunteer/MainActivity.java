@@ -1,3 +1,9 @@
+//This Class provides the central activity of the application, from which all of the other activities may be reached.
+//This activity is called when the user signs in.
+
+//@author Owen Galvin 10/17/2015
+//@modified Will Lewis 10/25/2015
+
 package com.example.owen.sigcsevolunteer;
 
 import android.content.Intent;
@@ -37,16 +43,22 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    //This method opens the Task activity
+    //@param view, the Tasks button
     public void goTasks(View view){
         Intent intent = new Intent(this, TaskActivity.class);
         startActivity(intent);
     }
 
+    //This method opens the Option activity
+    //@param view, the Options button
     public void goOptions(View view){
         Intent intent = new Intent(this, OptionActivity.class);
         startActivity(intent);
     }
 
+    //This method opens the SignIn activity
+    //@param view, the Sign In button
     public void goSignIn(View view){
         Intent intent = new Intent(this, SignInActivity.class);
         startActivity(intent);

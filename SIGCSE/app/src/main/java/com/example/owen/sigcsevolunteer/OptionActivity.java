@@ -3,8 +3,8 @@ package com.example.owen.sigcsevolunteer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-/**
- * Created by Owen on 10/19/15.
+/** This class provides the options page of the application.
+ * @author Owen Galvin, 10/19/2015
  */
 public class OptionActivity extends AppCompatActivity {
 
